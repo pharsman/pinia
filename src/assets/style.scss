@@ -1,7 +1,19 @@
-*{
+%main{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: 0;
+}
+
+%button{
+    background-color: #ff0000;
+    padding: 4px 10px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #ff0000bd;
+    }
 }
